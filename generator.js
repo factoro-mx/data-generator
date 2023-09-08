@@ -31,6 +31,7 @@ program
   .option("-en, --emitter-name <name>", "emitter name", "Supplier")
   .option("-rt, --receiver-tax-id <tax_id>", "receiver tax id", "YWYW690928KQ2")
   .option("-rn, --receiver-name <name>", "receiver name", "Buyer")
+  .option("-t, --type <type>", "invoice type", "PPD")
   .action((options) => {
     console.log(options);
     createDocuments(options);
