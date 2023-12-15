@@ -31,7 +31,8 @@ program
   .option("-en, --emitter-name <name>", "emitter name", "Supplier")
   .option("-rt, --receiver-tax-id <tax_id>", "receiver tax id", "YWYW690928KQ2")
   .option("-rn, --receiver-name <name>", "receiver name", "Buyer")
-  .option("-t, --type <type>", "invoice type", "PPD")
+  .option("-pt, --payment-type <type>", "invoice payment type", "PPD")
+  .option("-t, --type <type>", "invoice type", "I")
   .option("-c, --currency <currency>", "currency", "MXN")
   .action((options) => {
     console.log(options);

@@ -47,8 +47,9 @@ node generator.js documents
 | -en, --emitter-name <name>      | emitter name               | string | `Supplier`      |
 | -rt, --receiver-tax-id <tax_id> | receiver tax id            | string | `YWYW690928KQ2` |
 | -rn, --receiver-name <name>     | receiver tax id            | string | `Buyer`         |
-| -t, --type <type>               | invoice type               | string | `PPD`           |
+| -pt, --payment-type <type>      | invoice payment type       | string | `PPD`           |
 | -c, --currency <currency>       | currency                   | string | `MXN`           |
+| -t, --type <type>               | invoice type               | string | `E`             |
 
 ### tax-id
 
