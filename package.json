@@ -9,8 +9,8 @@
   "author": "Fernando Bueno",
   "license": "ISC",
   "dependencies": {
-    "commander": "^9.0.0",
-    "fs-extra": "^10.0.1",
-    "uuid": "^8.3.2"
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0",
+    "uuid": "^9.0.1"
   }
 }
